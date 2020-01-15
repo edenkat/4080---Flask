@@ -43,6 +43,6 @@ def photos():
     """Renders the about page."""
     return render_template(
         'photos.html',
-        title='Toy Story Photos Album' ,
+        title='Toy Story Photos Album',
         year=datetime.now().year,
     )
